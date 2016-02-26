@@ -30,6 +30,8 @@ title: Hi, I'm Mility
   {% endfor %}
 </div>
 
+<!--增加分页功能-->
+{% include pagination.html %}
 
 {% if paginator.total_pages > 1 %}
 <ul class="pager main-pager">
