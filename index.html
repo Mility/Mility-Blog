@@ -29,14 +29,13 @@ title: Hi, I'm Mility
    </article>
   {% endfor %}
   
-  <!--增加分页功能-->
-{% include pagination.html %}
+
 
 </div>
 
 
 
-<!--{% if paginator.total_pages > 1 %}
+{% if paginator.total_pages > 1 %}
 <ul class="pager main-pager">
   {% if paginator.previous_page %}
   <li class="previous">
@@ -49,4 +48,4 @@ title: Hi, I'm Mility
   </li>
   {% endif %}
 </ul>
-{% endif %}-->
+{% endif %}
