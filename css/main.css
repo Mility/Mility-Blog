@@ -222,6 +222,62 @@ footer .theme-by {
   }
 }
  
+
+/*Pagination*/
+.pagination {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: 0 0 20px;
+  padding-left: 0;
+  position: relative;
+
+  ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .page-number {
+    color: #999;
+    font-size: .8em;
+  }
+  .page-number, a {
+    height: 38px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    padding: 0 5px;
+
+    a {
+      width: 38px;
+      position: relative;
+      border: 1px solid rgba(0,0,0,0.1);
+      border-radius: 2px;
+      margin: 0;
+      color: #636363;
+      font-size: 1.4em;
+      text-decoration: none;
+      cursor: pointer;
+      background: #fff;
+
+      &:hover {
+        background: $primary-color;
+        border: none;
+        color: #fff;
+      }
+    }
+
+  }
+}
+ /*End of pagination*/
+ 
+ 
 /* --- Post preview --- */
 
 .post-preview {
