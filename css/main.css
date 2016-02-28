@@ -443,7 +443,8 @@ table tr {
   margin: 0;
   padding: 0;
 }
-table tr:nth-child(2n) {
+/*2n代表换行颜色不一样*/
+table tr:nth-child(n) {
   background-color: #f8f8f8;
 }
 table tr th {
